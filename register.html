@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginstyle.css">
+    <title>Contact Form</title>
+</head>
+<body bgcolor="cadetblue">
+    <h1 style="text-align: center;">User Registration</h1>
+    <p style="text-align: center;"> Register here & then you can access food donation portal . </p>
+    <div class="container">
+        
+        <form id="contact" class="form">
+            <div class="form-field">
+                <label for="fullname">Full Name:</label>
+                <input type="text" name="fullname" id="fullname"placeholder="Full Name" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="mobno">Mobile Number</label>
+                <input type="text" name="mobno" id="mobno" placeholder="Mobile Number" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="Email ID"autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="purpose">ID proof</label>
+                <input type="file" name="file" id="file" placeholder="Upload File">   
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="address">Address</label>
+                <textarea id="address" name="address" placeholder="Address" style="height:200px"></textarea>
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="feedback">User ID</label>
+                <input type="text" name="userid" id="userid" placeholder="User ID"autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="password">Password</label>
+                <input type="text" id="password" name="password" placeholder="Enter a passowrd">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <input style="color:black;" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginstyle.css">
+
+    <title>Donate</title>
+</head>
+<body  bgcolor="cadetblue">
+    <div class="container">
+        <h2 id="menu-head">You need to login first to donate - </h2>
+        <h1 id="login-head">Login with your ID & password...</h1>
+
+        <form id="contact" class="form" onsubmit="Login()">
+            <div class="form-field">
+                <label for="uid">User ID</label>
+                <input type="text" name="uid" id="uid"placeholder="uid" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="pass">Password</label>
+                <input type="text" name="pass" id="pass" placeholder="Password" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <button><li><a href="./donate.html">Login</a></li></button>
+            </div>
+            </form>
+            <div id="successlogin">
+            <h3></h3>
+            </div>
+            <script src="script.js"></script>
+</body>
+</html>
